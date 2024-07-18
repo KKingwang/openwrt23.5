@@ -29,4 +29,4 @@ jobs:
       run: ./scripts/feeds install -a
         
     - name: 开始编译
-      run: make -j99 V=s
+      run: make -j4 V=s
